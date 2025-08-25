@@ -61,29 +61,56 @@ const Index = () => {
         </a>
       </header>
 
-      {/* Hero Section */}
-      <section className="hero-section">
-        <div className="centered">
-          <div className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Beautiful Kitchens & Bathrooms — Built to Last
-          </div>
+{/* Hero Section (Mobile‑first, conversion‑ready) */}
+<section className="hero-section py-8 md:py-12">
+  <div className="centered px-4">
+    {/* Headline */}
+    <h1 className="text-2xl leading-tight font-bold text-foreground md:text-4xl md:leading-tight text-balance mb-3">
+      Beautiful Kitchens & Bathrooms — Built to Last
+    </h1>
 
-          <div className="text-lg md:text-xl text-muted-foreground mb-6">
-            7+ Years Experience • Design, Fixtures, Full Renovations & More
-          </div>
+    {/* Subheadline (1–2 linhas no mobile) */}
+    <p className="text-base md:text-xl text-muted-foreground mb-5">
+      Expert design + full-service remodeling for results you’ll love.
+    </p>
 
-          {/* Proof Bar */}
-          <div className="proof-bar">
-            <div className="proof-item"><div className="text"><div className="text-lg mb-1">🏆</div><strong>7+ years in business</strong></div></div>
-            <div className="proof-item"><div className="text"><div className="text-lg mb-1">⭐</div><strong>5.0 Google Rating</strong></div></div>
-            <div className="proof-item"><div className="text"><div className="text-lg mb-1">📍</div><strong>Kingston, England</strong></div></div>
-          </div>
-
-          <div className="text-sm text-muted-foreground mt-4">
-            🇬🇧 Serving Kingston & Greater London • +44 7940 476 220
-          </div>
+    {/* Proof Bar — 3 itens, compactos, sempre lado a lado */}
+    <div className="proof-bar mb-6">
+      <div className="proof-item">
+        <div className="text-2xl mb-1" aria-hidden>🏆</div>
+        <div className="text">
+          <strong>7+ Years</strong><br />
+          <small>Experience</small>
         </div>
-      </section>
+      </div>
+      <div className="proof-item">
+        <div className="text-2xl mb-1" aria-hidden>⭐</div>
+        <div className="text">
+          <strong>5.0 Google</strong><br />
+          <small>Top‑rated</small>
+        </div>
+      </div>
+      <div className="proof-item">
+        <div className="text-2xl mb-1" aria-hidden>🎖️</div>
+        <div className="text">
+          <strong>Certified</strong><br />
+          <small>Installers</small>
+        </div>
+      </div>
+    </div>
+
+    {/* Business details — 1 linha no mobile, foco em contato */}
+    <div className="text-sm md:text-base text-muted-foreground space-y-1">
+      <div>🇬🇧 Serving Kingston & Greater London</div>
+      <div>
+        <a href="tel:+447940476220" className="underline underline-offset-2">
+          +44 7940 476 220
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* <!-- Elfsight Google Reviews | Fix This Build That Google Reviews --> */}
       <div className="centered" style={{ marginTop: '0px' }}>
@@ -140,7 +167,7 @@ const Index = () => {
         `}</style>
 
         {/* What We Do */}
-        <h2 className="text-xl md:text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-xl md:text-2xl font-bold text-foreground mb-4" style={{ marginTop: '1.5rem'}} >
           What We Do
         </h2>
 
@@ -211,4 +238,5 @@ const Index = () => {
 
 
 export default Index;
+
 
