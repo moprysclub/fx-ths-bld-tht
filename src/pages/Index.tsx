@@ -46,7 +46,7 @@ const Index = () => {
   return (
     <>
       {/* Urgency Bar */}
-      <div className="urgency-bar">🔒 This site preview is reserved for 72h.</div>
+      <div className="urgency-bar">🔐 This site preview is reserved for 72h.</div>
 
       {/* Sticky Header */}
       <header className="sticky-header">
@@ -57,7 +57,7 @@ const Index = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Activate ▶
+        🔑 Activate
         </a>
       </header>
 
@@ -235,6 +235,7 @@ const Index = () => {
 
 
 export default Index;
+
 
 
 
