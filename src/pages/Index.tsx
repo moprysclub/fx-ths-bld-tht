@@ -79,22 +79,19 @@ const Index = () => {
       <div className="proof-item">
         <div className="text-2xl mb-1" aria-hidden>🏆</div>
         <div className="text">
-          <strong>7+ Years 
-          <small>Experience</small></strong>
+          <strong>7+ Years Experience</strong>
         </div>
       </div>
       <div className="proof-item">
         <div className="text-2xl mb-1" aria-hidden>⭐</div>
         <div className="text">
-          <strong>5.0 Google 
-          <small>Top‑rated</small></strong>
+          <strong>5.0 Google Top‑rated</strong>
         </div>
       </div>
       <div className="proof-item">
         <div className="text-2xl mb-1" aria-hidden>🎖️</div>
         <div className="text">
-          <strong>Certified 
-          <small>Installers</small></strong>
+          <strong>Certified Installers</strong>
         </div>
       </div>
     </div>
@@ -238,6 +235,7 @@ const Index = () => {
 
 
 export default Index;
+
 
 
 
