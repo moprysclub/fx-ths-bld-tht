@@ -83,10 +83,10 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Elfsight Google Reviews */}
+      {/* <!-- Elfsight Google Reviews | Fix This Build That Google Reviews --> */}
       <div className="centered" style={{ marginTop: '0px' }}>
         <script src="https://elfsightcdn.com/platform.js" async></script>
-        <div className="elfsight-app-de8a2f21-a9a1-4395-aa48-ad11d5a1adcd" data-elfsight-app-lazy></div>
+        <div class="elfsight-app-a98f04fe-0b5d-4aba-bb82-98fe1a7d031d" data-elfsight-app-lazy></div>
       </div>
 
       {/* Page Copy */}
@@ -206,5 +206,6 @@ const Index = () => {
     </>
   );
 };
+
 
 export default Index;
