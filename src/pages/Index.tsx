@@ -73,27 +73,27 @@ const Index = () => {
     <p className="text-base md:text-xl text-muted-foreground mb-5">
       Expert design + full-service remodeling for results you’ll love.
     </p>
-
+    
     {/* Proof Bar — 3 itens, compactos, sempre lado a lado */}
     <div className="proof-bar mb-6">
       <div className="proof-item">
         <div className="text-2xl mb-1" aria-hidden>🏆</div>
         <div className="text">
-          <strong>7+ Years
+          <strong>7+ Years 
           <small>Experience</small></strong>
         </div>
       </div>
       <div className="proof-item">
         <div className="text-2xl mb-1" aria-hidden>⭐</div>
         <div className="text">
-          <strong>5.0 Google
+          <strong>5.0 Google 
           <small>Top‑rated</small></strong>
         </div>
       </div>
       <div className="proof-item">
         <div className="text-2xl mb-1" aria-hidden>🎖️</div>
         <div className="text">
-          <strong>Certified
+          <strong>Certified 
           <small>Installers</small></strong>
         </div>
       </div>
