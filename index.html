@@ -37,7 +37,23 @@
     <!-- Calendly JS -->
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 
-    <!-- Start of OpenWidget (www.openwidget.com) code -->
+    <script>
+  (function(d,t) {
+    var BASE_URL="https://chatwoot.ncmagency.shop/";
+    var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=BASE_URL+"/packs/js/sdk.js";
+    g.async = true;
+    s.parentNode.insertBefore(g,s);
+    g.onload=function(){
+      window.chatwootSDK.run({
+        websiteToken: 'KH6N1Xdnr27S1pVAL487P3qZ',
+        baseUrl: BASE_URL
+      })
+    }
+  })(document,"script");
+</script>
+
+    <!-- Start of OpenWidget (www.openwidget.com) code
     <script>
       window.__ow = window.__ow || {};
       window.__ow.organizationId = "c582b253-9d5c-40e6-88b5-c96c870f71dd";
@@ -67,6 +83,6 @@
     <noscript>
       You need to <a href="https://www.openwidget.com/enable-javascript" rel="noopener nofollow">enable JavaScript</a> to use the communication tool powered by <a href="https://www.openwidget.com/" rel="noopener nofollow" target="_blank">OpenWidget</a>
     </noscript>
-   <!--  End of OpenWidget code -->
+    End of OpenWidget code -->
   </body>
 </html>
