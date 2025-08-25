@@ -57,7 +57,7 @@ const Index = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Activate ⇲
+          Activate ▶
         </a>
       </header>
 
@@ -238,5 +238,6 @@ const Index = () => {
 
 
 export default Index;
+
 
 
